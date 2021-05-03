@@ -40,33 +40,34 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| local | n/a |
-| tls | n/a |
+| <a name="provider_local"></a> [local](#provider\_local) | n/a |
+| <a name="provider_tls"></a> [tls](#provider\_tls) | n/a |
 
 ## Modules
 
-No Modules.
+No modules.
 
 ## Resources
 
-| Name |
-|------|
-| [local_file](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) |
-| [tls_private_key](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key) |
+| Name | Type |
+|------|------|
+| [local_file.privatekey](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
+| [local_file.publickey](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
+| [tls_private_key.ssh](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| key\_name | Name of the key | `string` | `"id_rsa"` | no |
-| out\_dir | Where do you want your key files | `string` | n/a | yes |
+| <a name="input_key_name"></a> [key\_name](#input\_key\_name) | Name of the key | `string` | `"id_rsa"` | no |
+| <a name="input_out_dir"></a> [out\_dir](#input\_out\_dir) | Where do you want your key files | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| private\_key | n/a |
-| public\_key | n/a |
+| <a name="output_private_key"></a> [private\_key](#output\_private\_key) | n/a |
+| <a name="output_public_key"></a> [public\_key](#output\_public\_key) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Help
