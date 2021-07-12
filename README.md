@@ -1,6 +1,6 @@
 # terraform-tls-ssh
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-tls-key/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-tls-key)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-tls-key/workflows/Verify%20and%20Bump/badge.svg?branch=main)](https://github.com/JamesWoolfenden/terraform-tls-key)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-tls-key.svg)](https://github.com/JamesWoolfenden/terraform-tls-key/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-tls-key.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-tls-key/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
