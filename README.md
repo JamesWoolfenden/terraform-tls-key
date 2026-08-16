@@ -5,7 +5,6 @@
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-tls-key.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-tls-key/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
-[![checkov](https://img.shields.io/badge/checkov-verified-brightgreen)](https://www.checkov.io/)
 
 Terraform module make an SSH key.
 
@@ -64,8 +63,8 @@ No modules.
 
 | Name | Description |
 | ---- | ----------- |
-| <a name="output_private_key"></a> [private\_key](#output\_private\_key) | n/a |
-| <a name="output_public_key"></a> [public\_key](#output\_public\_key) | n/a |
+| <a name="output_private_key"></a> [private\_key](#output\_private\_key) | The private key in PEM format |
+| <a name="output_public_key"></a> [public\_key](#output\_public\_key) | The public key in OpenSSH format |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Help
